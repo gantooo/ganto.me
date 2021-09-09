@@ -1,0 +1,64 @@
+.notice{
+	max-width: 400px;
+	background-color: var(--bg);
+	color: var(--color);
+	border-radius: 5px;
+	display: none;
+	padding: 10px;
+    	margin: 10px;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999999;
+	box-shadow: var(--box-shadow);
+	border: 1px solid var(--color);
+	font-weight: 300;
+	background: url(https://cn.bing.com/th?id=OHR.PadarIsland_ZH-CN3753026244_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+.notice .txt{
+	width: 100%;
+	padding: 10px;
+}
+.txt .title{
+	margin: 10px 0;
+	font-size: 25px;
+	text-align: center;
+}
+.txt .content{
+	max-height: 100px;
+	overflow: auto;
+	text-indent: 2em;
+	margin-bottom: 10px;
+}
+.txt .content::-webkit-scrollbar{
+	display: none;
+}
+.notice .bth{
+	width: 100%;
+	display: flex;
+	padding-top: 5px;
+	justify-content: flex-end;
+}
+.off{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	font-weight: 900;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 20px;
+	background-color: #1e90ff;
+	color: white;
+	box-shadow: 0px 3px 0px #3742fa;
+	cursor: pointer;
+}
+.off:hover{
+	background-color: #ff6b91;
+	box-shadow: 0px 3px 0px #ff4757;
+}
+.off:active{
+	background-color: red;
+	box-shadow: 0px 3px 0px darkred;
+}
