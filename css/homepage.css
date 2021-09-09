@@ -271,7 +271,6 @@ section .nav span a{
 }
 section .nav span:hover{
 	background-color: var(--article-background-color-hover);
-	color: #3742FA;
 }
 /* section nav p::before{
 	content: "#";
