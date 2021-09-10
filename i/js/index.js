@@ -14,7 +14,6 @@ $(function(){
 	console.log(CW, CWPX);
 	$(".con,.cons .left_").click(function(){
 		$("body").css({"overflow":"auto"});
-		
 		$(".cons .left_").hide();
 		$(".cons .right_").show();
 		$(".con").hide();
