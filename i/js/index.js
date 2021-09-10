@@ -10,7 +10,7 @@ $(function(){
 		$(".cons").css({"left":"0","box-shadow":"4px 0px 4px rgba(0,0,0,0.5)"});
 	})
 	let CW = $(".cons").width();
-	let CWPX = CW + "px"
+	let CWPX = "-" + CW + "px"
 	console.log(CW, CWPX);
 	$(".con,.cons .left_").click(function(){
 		$("body").css({"overflow":"auto"});
