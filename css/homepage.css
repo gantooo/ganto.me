@@ -241,6 +241,13 @@ section nav{
 	width: 100%;
 	max-width: 666px;
 }
+section nav p {
+    width: 100%;
+    word-break: break-word;
+    position: relative;
+    line-height: 1.5rem;
+    margin: 8px 0;
+}
 section .nav span{
 	display: inline-block;
 	min-width: 50px;
