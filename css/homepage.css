@@ -251,8 +251,8 @@ section nav p {
 section .nav span{
 	display: inline-block;
 	min-width: 50px;
-	/* max-width: 100px; */
-	word-break:break-word;
+	max-width: 200px;
+	word-break: break-word;
 	position: relative;
 	line-height: 1.5rem;
 	margin: 2px;
@@ -262,7 +262,7 @@ section .nav span{
 	text-align: center;
 	background-color: var(--itemBackgroundColor);
 	color: var(--color);
-	padding: 5px 10px;
+	padding: 2px 8px;
 	border-radius: 10px;
 }
 section .nav span b{
