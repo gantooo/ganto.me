@@ -17,7 +17,6 @@ body{
   /* background-color: #303030; */
   /* color: white; */
   padding: 0 20px;
-  min-width: 500px;
 }
 main{
   width: 100%;
@@ -25,18 +24,15 @@ main{
   margin: 0 auto;
 }
 header{
-  border-bottom: 1px solid #555555;
+  border-bottom: 2px solid #555555;
   padding: 30px 0;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 header img{
   width: 100px;
 }
 header .me{
   padding: 0 0 0 10px;
-  display: flex;
-  align-items: center;
 }
 header .me nav h1{
   font-size: 40px;
