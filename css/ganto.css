@@ -29,6 +29,9 @@ header{
   text-align: center;
 }
 header img{
+  display: inline-block;
+  border-radius: 50%;
+  max-width: 100%;
   width: 100px;
 }
 header .me{
