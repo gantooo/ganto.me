@@ -83,3 +83,7 @@ section .item table td{
     display: block;
   }
 }
+footer{
+  text-align: center;
+  padding: 20px 0;
+}
