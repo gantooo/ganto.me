@@ -3,4 +3,5 @@
 function g(){
   console.log("https://ganto.me");
 };
+g();
 ```
