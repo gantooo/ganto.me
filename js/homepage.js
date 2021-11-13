@@ -85,8 +85,8 @@ window.onload = function(){
 	}
 	// 通知
 	var title = "思想驱动行为";
-	var content = "学习永无止境";
-	//localStorage.setItem("flag","true"); // 如果需要强制一直显示通知，请取消此条代码注释
+	var content = "学习永无止境<br/><a target='_blank' href='https://ganto.me/resume.html'>简历</a>";
+	localStorage.setItem("flag","true"); // 如果需要强制一直显示通知，请取消此条代码注释
 	if(localStorage.getItem("flag") === "true" && localStorage.getItem("content") === content){
 		document.querySelector(".title").innerHTML = title;
 		document.querySelector(".content").innerHTML = content;
