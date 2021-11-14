@@ -61,8 +61,7 @@ section .item span{
   margin: 10px 0;
 }
 section .item ol{
-/*   list-style: none; */
-  margin-left:24px;
+  list-style: none;
 }
 section .item ol li{
   margin: 10px 0;
