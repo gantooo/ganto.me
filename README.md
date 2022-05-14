@@ -1,2 +1,0 @@
-# ganto.me
-My Home
