@@ -80,6 +80,9 @@ section .item table td{
   display: flex;
   justify-content: space-between;
 }
+.i0 nav{
+  flex: 1;
+}
 @media (max-width: 600px) {
   .i0{
     display: block;
